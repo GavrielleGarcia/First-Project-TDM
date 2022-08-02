@@ -1,48 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ReviewFlix</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ReviewFlix!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-<figure class="image is-128x128">
-    <img src="imagenurl">
-  </figure>
-<h1>Find your favorite movie reviews and save a list of the ones you want to watch.<br>
-We provide you with more short review clips. </h1>
-<button onclick="myFunction()">Find your review</button>
-<h2>ReviewFlix</h2>
-
-<body>
-
-<header>
-  <form  id="form">
-      <input type="text" placeholder="Search" id="search" class="search">
-  </form>
-</header>
-<div id="tags"></div>
-<div id="myNav" class="overlay">
-
-
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
- 
-  <div class="overlay-content" id="overlay-content"></div>
+ <!--This is the main banner-->
+  <section class="hero">
+  <div class="container">
+   
+      <img src="https://cdn.pixabay.com/photo/2016/01/22/08/17/banner-1155437_960_720.png">
+    
+   </div>
+</section>
+<section class="columns is-mobile is-centered">
   
-  <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
-  
-  <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+  <!--This is the main descryption Text-->
+  <div class="column is-half"> 
+   <strong id="text"> Find your favorite movie reviews and save
+a list of the ones you want to watch. 
+We provide you with more short review clips.</strong>
+  </div>
 
-</div>
-<main id="main"></main>
-<div class="pagination">
-  <div class="page" id="prev">Previous Page</div>
-  <div class="current" id="current">1</div>
-  <div class="page" id="next">Next Page</div>
+</section>
 
-</div>
 
-<script src="/First-Project-TDM/assets/script.js"></script>
-</body>
+<!--This is the search Input-->
+<section class="columns is-centered">
+
+  <div class="column is-two-fifths">
+    <input class="input is-rounded is-large" type="text" placeholder="Find Your Review">
+  </div>
+   
+
+</section>
+
+<!--This is the name of the page-->
+<section class="columns is-fluid is-centered">
+
+  <h1 class="title is-1" id="title">ReviewFlix</h1>
+   
+
+</section>
+
+<!--This is where high rated movies go-->
+    <section class="container">
+    
+      <div class="columns is-multiline is-mobile">
+      
+        <div class="column is-one-quarter">
+        <figure class="image is-3by4">
+          <!--Hyperlink to random high rated movies goes here -->
+          <img src="/hello-there-obi-wan.gif" alt="">
+        </figure>
+      </div>
+      
+      <div class="column is-one-quarter">
+        <figure class="image is-3by4">
+           <!--Hyperlink to random high rated movies goes here -->
+          <img src="/hello-there-obi-wan.gif" alt="">
+        </figure>
+      </div>
+      
+      <div class="column is-one-quarter">
+        <figure class="image is-3by4">
+           <!--Hyperlink to random high rated movies goes here -->
+          <img src="/hello-there-obi-wan.gif" alt="">
+        </figure>
+      </div>
+      
+      <div class="column is-one-quarter">
+          <figure class="image is-3by4">
+             <!--Hyperlink to random high rated movies goes here -->
+            <img src="/hello-there-obi-wan.gif" alt="">
+          </figure>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  </body>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Review</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src=""></script>
 </html>
