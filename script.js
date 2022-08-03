@@ -6,7 +6,6 @@ const movieFormSubmit = function(event){
     event.preventDefault();
     
     let movie = (movieNameEl.value.trim() + " review").replaceAll(" ", "%20");
-    console.log(movie);
 
     if (movie != "") {
         window.location.assign("review-page.html?movie=" + movie);
