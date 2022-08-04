@@ -1,11 +1,34 @@
-:root {
-    background-color: black;
+
+
+
+body {
+  background-color: black;
 }
 
+.hero {
+ 
+  height: 100vh;
+  width: 100%;
+  background-image:url(/assets/REVIEWFLIX\ \(1\).jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+input {
+  margin-bottom: 190px;
+  margin-top: 390px;
+}
+
+.button {
+ 
+}
 
 #text {
-    color:white;
-    font-size: 2.4vw;
+  -webkit-text-stroke: 1px black;
+  font-weight: bolder;
+    color:#E65E12;
+   
     margin: 50 50;
 }
 
@@ -14,6 +37,12 @@
  text-shadow: 20px 20px 4px #E65E12;
  font-size: 9vw;
  margin-bottom: 40px;
+}
+
+.box {
+
+background-color: black;
+border: 10px solid black;
 }
 
 
@@ -33,7 +62,7 @@ font-size: 3vw;
 .iframe-container{
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     height: 0;
   }
   .iframe-container iframe{
@@ -48,3 +77,10 @@ font-size: 3vw;
     background-color: black;
   }
 
+
+ img {
+  border: 4px double black;
+  border: 8px dashed rgb(59, 59, 59);
+
+ }
+  
