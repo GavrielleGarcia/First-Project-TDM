@@ -8,7 +8,7 @@ const movieFormSubmit = function(event){
     let movie = (movieNameEl.value.trim() + " review").replaceAll(" ", "%20");
 
     if (movie != "") {
-        window.location.assign("review-page.html?movie=" + movie);
+        window.location.assign("assets/review-page.html?movie=" + movie);
     } else {
         movieNameEl.value = '';
         alert("You must enter a Movie Name");
