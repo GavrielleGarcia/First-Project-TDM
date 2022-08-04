@@ -1,0 +1,50 @@
+:root {
+    background-color: black;
+}
+
+
+#text {
+    color:white;
+    font-size: 2.4vw;
+    margin: 50 50;
+}
+
+#title {
+ color: #E65E12;
+ text-shadow: 20px 20px 4px #E65E12;
+ font-size: 9vw;
+ margin-bottom: 40px;
+}
+
+
+/*Index2 CSS*/
+
+.navbar {
+background-color: black;
+}
+
+
+#title2 {
+    color: #E65E12;
+ text-shadow: 20px 20px 4px #E65E12;
+font-size: 3vw;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer {
+    background-color: black;
+  }
+
